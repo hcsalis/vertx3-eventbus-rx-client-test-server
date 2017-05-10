@@ -5,7 +5,7 @@ plugins {
 }
 
 group 'me.salis'
-version '1.0-SNAPSHOT'
+version '1.0.0'
 
 apply plugin: 'java'
 
@@ -39,9 +39,3 @@ shadowJar {
 task wrapper(type: Wrapper) {
     gradleVersion = '3.4.1'
 }
-group 'me.salis'
-version '1.0.0'
-
-apply plugin: 'java'
-
-sourceCompatibility = 1.8
